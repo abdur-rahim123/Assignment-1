@@ -1,0 +1,61 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+
+
+.main{background-image: url(../Assignmensts-1/Assets/Hero-bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;}
+
+/* header part */
+header{width: 90%;
+margin: auto;
+padding: 20px ;
+;
+
+}
+
+.logo{
+    font-size:32px;
+    font-weight: bold;
+    color: #4E47FF;}
+
+nav{display: flex;
+justify-content: space-between;}
+
+button{
+    padding:10px 20px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+
+/* section-blog part */
+
+.section-blog{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+     color: #312f2f;;
+    font-size: 22px;
+  
+}
+
+span{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+}
