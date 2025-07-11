@@ -273,3 +273,12 @@ margin-top: 20px;}
 .review-footer img{
     border-radius: 50%;
 }
+
+
+/* button hover effect */
+
+button:hover{
+    background-color: #3b38d9;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
