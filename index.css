@@ -212,6 +212,7 @@ textarea{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+   
 }
 
 .nav-items a{
@@ -221,4 +222,54 @@ color: #73777e;}
 .footer p{ color: #73777e;}
 
 .nav-items li{list-style: none;
+}
+
+
+/* feedback section */
+.feedback-section{
+    width: 100%;
+    margin: auto;
+    background-color: #F5F8FF;
+    margin: 100px auto;
+    height: 50vh;
+    
+}
+
+.review-list{
+    display: flex;
+    gap:15px;
+
+}
+
+.review-card{
+
+   background-color:#fff;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.for-width{
+    width: 90%;
+    margin: auto;
+}
+
+.feedback-section h2{text-align: center;
+margin-top: 20px;}
+
+.stars{
+    margin: 20px 0px;
+}
+
+.review-date{
+    color: #73777e;
+}
+
+
+.review-card h3{
+    margin: 10px 0px;
+}
+
+
+.review-footer img{
+    border-radius: 50%;
 }
