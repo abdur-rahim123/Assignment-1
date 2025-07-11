@@ -1,5 +1,10 @@
 *{padding: 0; margin: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
 
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
 /* header part */
 .header{
 
@@ -132,6 +137,48 @@ padding: 30px;
 
 .ps-section span{
     color: #312f2f;
+}
+
+
+
+
+/* focus section */
+
+.focus-section {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 70px;
+}
+
+.focus-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-section p {
+    color: rgba(49, 47, 47, .5);
+    margin: 20px 0;
+}
+
+.focus-section button {
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+.focus-section .img {
+    max-width: 840px;
+    max-height: 365px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.focus-section img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -282,3 +329,6 @@ button:hover{
     transition: 0.3s;
     transform: scale(1.05);
 }
+
+
+/* html{display: none;} */
