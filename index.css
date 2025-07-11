@@ -145,8 +145,7 @@ padding: 30px;
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    /* width: 90%; */
-    /* height: 60vh; */
+    
 }
 
 .left{
@@ -189,7 +188,7 @@ textarea{
 
 /* footer section */
 .footer{
-   /* background-color: #0534a1; */
+   
     
     padding: 50px;
     text-align: center;
